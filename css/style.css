@@ -39,6 +39,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .row-camera{
@@ -57,17 +58,52 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100px;
+    height: 130px;
+    position: relative;
 }
+
+
+.speaker-view{
+    position: absolute;
+    right:0;
+    top: 0;
+    padding: 10px;
+}
+
+.grid{
+    background-color: #494949;
+    color: white;
+    padding: 5px;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.user-speaking{
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+
+.speaker{
+    background-color: rgba(49, 49, 49, 60%);
+    color: white;
+    padding: 5px;
+    font-size: small;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
 
 /*---
 
 FOOTER
 
 ---*/
-
-
-
 
 footer{
     height: 80px;
